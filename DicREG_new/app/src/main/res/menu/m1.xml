@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+    <item
+        android:id="@+id/M1_ItemListaComp"
+        android:title="@string/M_item_lista_comp" />
+    <item
+        android:id="@+id/M1_ItemEstados"
+        android:title="@string/M_item_estados" />
+    <item
+        android:id="@+id/M1_ItemSair"
+        android:title="@string/M_item_sair" />
+</menu>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name"> Dicionário Regional Brasileiro</string>
+    <string name="T01_edit_text">Pesquise uma palavra</string>
+    <string name="T01_botao_pesquisar">Pesquisar</string>
+    <string name="M_item_sobre">Sobre</string>
+    <string name="M_item_lista_comp">Lista completa</string>
+    <string name="M_item_estados">Listar por estados</string>
+    <string name="M_item_nova_palavra">Sugerir nova expressão</string>
+    <string name="M_item_sair">Sair</string>
+    <string name="T04_titulo_da_pag">Nova expressão ou significado</string>
+    <string name="T04_LABEL_incluir">Expressão popular*</string>
+    <string name="T04_Help_obrigatorio">*Obrigatório</string>
+    <string name="T04_LABEL_addSignificado">Significado*</string>
+    <string name="T04_botao_enviar">Submeter</string>
+    <string-array name="T04_spinner_estados">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espirito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+    <string name="T5_Sobre">Dicionário Regional Brasileiro:</string>
+    <string name="T05_Descricao">O Dicionário Regional Brasileiro foi criado para suprir a carência de um app móvel que sirva como um local para pesquisa de palavras e/ou expressões idiomáticas faladas em cada estado brasileiro.</string>
+    <string name="T05_Contato">Para obter mais informações, envie um\n e-mail para:</string>
+    <string name="T05_Email">18devak@gmail.com</string>
+    <string name="M3_compartilhar_app">Compartilhar</string>
+</resources>

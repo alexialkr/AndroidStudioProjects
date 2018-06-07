@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alk.dicreg_new">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".T1_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".T2_listaPalavraPesquisada"
+            android:label="Detalhes"
+            android:parentActivityName=".T1_main" />
+        <activity
+            android:name=".T3_listaCompleta"
+            android:parentActivityName=".T1_main" />
+        <activity
+            android:name=".T4_sugestaoNovaPalavra"
+            android:label="Sugestão"
+            android:parentActivityName=".T1_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".T5_sobre"
+            android:label="Sobre"
+            android:parentActivityName=".T1_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".T6_listaEstados"
+            android:parentActivityName=".T1_main" />
+        <activity
+            android:name=".T7_listaPalavraPorEstados"
+            android:parentActivityName=".T6_listaEstados" />
+        <activity android:name=".T8_detalhaPalavra" />
+    </application>
+
+</manifest>
