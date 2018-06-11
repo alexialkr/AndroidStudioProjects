@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alk.dicregbr.T1_main"
+    tools:ignore="MissingDefaultResource">
+    <item
+        android:id="@+id/M3_ItemAddP"
+        android:orderInCategory="100"
+        android:title="@string/M_item_nova_palavra"
+        android:visible="true" />
+    <item
+        android:id="@+id/M3_ItemFiltrar"
+        android:orderInCategory="101"
+        android:title="@string/M_item_estados"
+        android:visible="true" />
+    <item
+        android:id="@+id/M3_ItemListaComp"
+        android:orderInCategory="102"
+        android:title="@string/M_item_lista_comp"
+        android:visible="true" />
+    <item
+        android:id="@+id/M3_ItemSobre"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="103"
+        android:title="@string/M_item_sobre"
+        android:visible="true" />
+    <item
+        android:icon="?attr/actionModeShareDrawable"
+        android:orderInCategory="101"
+        android:title="@string/M3_compartilhar_app"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/M3_ItemSair"
+        android:orderInCategory="104"
+        android:title="@string/M_item_sair" />
+</menu>
