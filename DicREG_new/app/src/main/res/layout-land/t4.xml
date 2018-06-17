@@ -8,7 +8,6 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="47dp"
-        android:layout_marginTop="8dp"
         android:paddingTop="8dp"
         android:text="@string/T04_titulo_da_pag"
         android:textAlignment="center"
@@ -25,7 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:elevation="8dp"
         android:hint="@string/T04_LABEL_incluir"
@@ -48,47 +46,33 @@
     <android.support.v7.widget.AppCompatSpinner
         android:id="@+id/T4_SpinEstados"
         style="@style/Widget.AppCompat.Spinner"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
         android:background="@android:drawable/btn_dropdown"
         android:dropDownSelector="@android:drawable/list_selector_background"
         android:elevation="8dp"
         android:entries="@array/T04_spinner_estados"
         android:focusable="auto"
-        android:gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
         android:scrollbarSize="8dp"
         android:spinnerMode="dialog"
         android:verticalScrollbarPosition="defaultPosition"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/T4_Button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textLayout_incluir" />
-
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/textLayout_spin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:hintAnimationEnabled="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/T4_SpinEstados">
-
-    </android.support.design.widget.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/textLayout_sign" />
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/textLayout_sign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:backgroundTintMode="src_over"
         android:elevation="8dp"
@@ -99,7 +83,7 @@
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textLayout_spin">
+        app:layout_constraintTop_toBottomOf="@+id/textLayout_incluir">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/T4_AddSignificado"
@@ -115,7 +99,9 @@
         style="?android:attr/buttonStyleToggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/colorPrimary"
         android:elevation="12dp"
         android:onClick="enviar"
@@ -123,6 +109,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textLayout_sign" />
 

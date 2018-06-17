@@ -21,7 +21,8 @@
         <activity
             android:name=".T2_listaPalavraPesquisada"
             android:label="Detalhes"
-            android:parentActivityName=".T1_main" />
+            android:parentActivityName=".T1_main"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".T3_listaCompleta"
             android:parentActivityName=".T1_main" />
@@ -41,7 +42,9 @@
         <activity
             android:name=".T7_listaPalavraPorEstados"
             android:parentActivityName=".T6_listaEstados" />
-        <activity android:name=".T8_detalhaPalavra" />
+        <activity
+            android:name=".T8_detalhaPalavra"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
